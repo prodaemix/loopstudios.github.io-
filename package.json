@@ -1,0 +1,22 @@
+{
+  "name": "loopstudios-landing-page-main",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "postcss src/import.css --output dist/final.css",
+    "watch": "postcss src/import.css --output dist/final.css --watch"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^10.2.4",
+    "postcss": "^8.2.6",
+    "postcss-cli": "^8.3.1",
+    "postcss-import": "^14.0.0",
+    "precss": "^4.0.0"
+  },
+  "dependencies": {
+    "D": "^1.0.0"
+  }
+}

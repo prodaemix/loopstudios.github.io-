@@ -1,0 +1,269 @@
+.header {
+  background-image: url(../img/desktop/image-hero.jpg);
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-image: center center;
+  padding: 4rem;
+}
+
+.barra {
+  display: flex;
+  justify-content: space-between;
+  color: #fff;
+}
+
+.barra img {
+  margin-left: 6rem;
+}
+
+.menu a {
+  margin-left: 2rem;
+}
+
+.menu a:hover {
+  border-bottom: #fff solid 1px;
+  cursor: pointer;
+  padding-bottom: .7rem;
+  transition: ease .6s;
+}
+
+.texto-header  {
+  display: inline-block;
+  display: flex;
+  height: 30%;
+  flex-direction: column;
+  font-size: 3rem;
+  color: #fff;
+  font-weight: 100;
+  width: 37%;
+  margin: 7rem 0 0 13rem;
+  border: solid 2px #fff;
+  padding: 1rem;
+}
+
+.interactive {
+  margin: 0 0 0 5rem;
+}
+
+.contenedor-interactive {
+  display: flex;
+
+  
+}
+
+.imagen-interactive {
+  position: absolute;
+  
+}
+
+.texto-interactive {
+  position: relative;
+  height: 100%;
+  width: 20rem;
+  background-color: #fff;
+  top: 10rem;
+  left: 35rem;
+  padding: 3rem;
+}
+
+.contenido-interactivo {
+  color: rgb(121, 118, 118);
+  font-size: 2rem;
+  font-weight: 100;
+  margin-bottom: 2rem;
+  letter-spacing: .2rem;
+}
+
+.parrafo-interactivo {
+  color: rgb(153, 152, 152);
+  font-size: .7rem;
+  font-weight: bold;
+  line-height: 1.3rem;
+  margin-bottom: 1rem;
+  width: 18rem;
+}
+
+.boton-interactive {
+  text-align: right;
+  margin-top: 9rem;
+  letter-spacing: .2rem;
+  
+  color: #000;
+  display:inline-block;
+  float: right;
+  padding: .5rem .1rem;
+  
+}
+
+.boton {
+  padding:  .7rem 3rem;
+  font-size: .8rem;
+  font-weight: bold;
+  border: solid 1px rgb(163, 158, 158);
+}
+
+.boton:hover {
+  cursor: pointer;
+  background-color: rgb(19, 18, 18);
+  color: #fff;
+  border: none;
+  transition: ease .6s;
+  
+}
+
+.h2-main {
+  padding: 5rem 0 2rem 5rem;
+  font-size: 2.5rem;
+  font-weight:200;
+  color:#373737 ;
+}
+
+.galeria-imagenes {
+  display: flex;
+  flex-wrap: wrap;
+  grid-gap: 2rem ;
+  gap: 2rem ;
+  margin: 0 0rem 0 7rem;
+  
+}
+
+.contenedor-imagen img {
+  position: relative;
+}
+
+.contenedor-imagen p {
+  position: absolute;
+}
+
+.DEEP-EARTH {
+  top: 113rem;
+  left: 10rem;
+  font-size: 1.5rem;
+  color: #fff;
+}
+
+.NIGHT-ARCADE {
+  font-size: 1.5rem;
+  color: #fff;
+  top: 113rem;
+  left: 27rem;
+}
+
+.SOCCER-TEAM-VR {
+  font-size: 1.5rem;
+  color: #fff;
+  top: 113rem;
+  right: 26.1rem;
+
+}
+
+.THE-GRIND {
+  font-size: 1.5rem;
+  color: #fff;
+  top: 113rem;
+  right: 12rem;
+}
+
+.FROM-UP-ABOVE-VR {
+  font-size: 1.5rem;
+  color: #fff;
+  top: 144rem;
+  left: 7.5rem;
+}
+
+.POCKET-BOREALIS {
+  font-size: 1.5rem;
+  color: #fff;
+  top: 144rem;
+  left: 26rem;
+}
+
+.THE-CURIOSITY {
+  font-size: 1.5rem;
+  color: #fff;
+  top: 144rem;
+  right: 27.4rem;
+}
+
+.MAKE-IT-FISHEYE {
+  font-size: 1.5rem;
+  color: #fff;
+  top: 144rem;
+  right: 9rem;
+}
+
+.footer {
+  height: 100%;
+  margin-top: 3rem;
+  display: flex;
+  width: 100%;
+  background:#000;
+}
+
+.barra-footer {
+  padding: 3rem 0 3rem 3rem ;
+  color: #fff;
+  flex-direction: column;
+  align-items: center;
+}
+
+.barra-footer img {
+  margin: 0 0 1rem 0;
+  display: inline-block;
+}
+
+.menu-footer a {
+  display: inline-block;
+  margin:1rem 1rem 3rem 0;
+
+}
+
+.menu-footer a:hover {
+  border-bottom: #fff solid 1px;
+  cursor: pointer;
+  padding-bottom: .7rem;
+  transition: ease .6s;
+  
+}
+
+.redes-sociales {
+  display: flex;
+  text-align: right;
+  height: 100%;
+  width: 22%;
+  letter-spacing: 1rem;
+  margin-top: 3rem;
+  display: inline-block;
+}
+
+.redes-sociales img {
+  display: inline-block;
+  padding-bottom: .7rem;
+
+}
+
+.redes-sociales img:hover {
+  border-bottom: #fff solid 1px;
+  cursor: pointer;
+  padding-bottom: .7rem;
+  transition: ease .6s;
+}
+
+.attribution {
+  display:inline-block;
+  display: flex;
+  align-items: flex-end;
+  text-align: center;
+  color: #fff;
+  margin: 1rem;
+  
+  
+}
+
+.attribution a {
+  display:inline-block;
+  color: #fff;
+  margin-right: 1rem;
+
+}
